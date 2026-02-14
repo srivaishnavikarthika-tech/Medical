@@ -1,0 +1,21 @@
+Age,Gender,Temperature,HeartRate,Symptoms,History,RiskLevel,Department
+65,Male,39.5,110,Severe chest pain and shortness of breath,Hypertension,High,Cardiology
+24,Female,36.8,72,Mild headache and runny nose,None,Low,General Medicine
+45,Male,38.2,95,Persistent cough and fatigue,Asthma,Medium,Pulmonology
+72,Female,37.0,140,Palpitations and dizziness,Atrial Fibrillation,High,Cardiology
+12,Male,39.8,105,High fever and skin rash,None,High,Pediatrics
+34,Female,36.5,65,Sprained ankle and swelling,None,Low,Orthopedics
+55,Male,37.5,88,Frequent urination and thirst,Diabetes,Medium,Endocrinology
+29,Male,36.9,70,Blurry vision and eye redness,None,Low,Ophthalmology
+80,Female,35.5,55,Confusion and cold shivering,Hypothyroidism,High,Emergency
+19,Female,37.2,80,Sore throat and difficulty swallowing,None,Low,ENT
+50,Male,38.5,100,Abdominal pain and nausea,Gerd,Medium,Gastroenterology
+62,Female,39.2,115,Sudden weakness on left side,Hypertension,High,Neurology
+28,Male,37.0,75,Back pain after lifting weights,None,Low,Physiotherapy
+41,Female,38.0,90,Ear ache and muffled hearing,None,Medium,ENT
+68,Male,36.7,60,Tremors and slow movement,Parkinson's,Medium,Neurology
+35,Female,38.8,110,Severe pelvic pain,Endometriosis,High,Gynecology
+22,Male,36.6,68,Skin itchiness and red patches,Eczema,Low,Dermatology
+58,Female,37.8,92,Joint stiffness and swelling,Arthritis,Medium,Rheumatology
+47,Male,39.0,105,Severe back pain and fever,Kidney Stones,High,Urology
+31,Female,36.8,74,Anxiety and difficulty sleeping,None,Low,Psychiatry
