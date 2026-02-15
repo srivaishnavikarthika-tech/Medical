@@ -1,11 +1,40 @@
-AI-Powered Clinical Triage Assistant is a data-driven decision-support tool designed to automate patient prioritization in Emergency Departments.
+AI Medical Triage Assistant
+A professional, machine-learning-powered web application designed to assist healthcare providers in prioritizing patients based on clinical urgency. This tool uses a Random Forest Classifier to analyze patient vitals and medical history to provide instant risk assessments.
 
-By leveraging a Random Forest Machine Learning model and a specialized clinical dataset, the system analyzes real-time vitals, symptoms, and medical history to provide instant Risk Stratification (Low/Medium/High).
+🚀 Overview
+In high-pressure clinical environments, rapid and accurate triage is critical. Our AI Medical Triage Assistant automates the initial screening process, ensuring that high-risk patients are identified and routed to the correct department (e.g., Cardiology, General Medicine) within seconds.
 
-The Problem it Solves: Traditional triage often relies on static rules that can miss high-risk cases. Our solution uses Comorbidity Weighting to detect critical conditions—like identifying a 72-year-old with a high heart rate as "High Risk"—ensuring life-saving care is delivered without delay.
-Core Impact:
-Reduces Clinical Cognitive Load: Automates department routing.
+✨ Key Features
+Secure Access: Custom-built login and registration system using st.session_state and a persistent local user database.
 
-Prioritizes Safety: Optimized for High Recall to minimize missed emergencies.
+Intelligent Triage: Predicts Risk Level (Low/Medium/High) and Recommended Department using a Scikit-learn model trained on clinical data.
 
-Deployment Ready: Features a secure clinician login and a streamlined UI built with Streamlit.
+Comprehensive Patient Profiles: Supports manual entry of Patient IDs and Pre-existing Conditions (Diabetes, Heart Disease, etc.) to refine AI accuracy.
+
+Medical Document Support: Integrated file uploader for health records and clinical notes.
+
+Professional UI/UX: Styled with custom CSS, featuring interactive input highlighting, a centered login portal, and dynamic visual alerts (Red/Yellow/Green) based on patient risk.
+
+🛠️ Tech Stack
+Frontend: Streamlit (Python-based Web Framework)
+
+Machine Learning: Scikit-learn (Random Forest Classification)
+
+Data Handling: Pandas & NumPy
+
+Styling: Custom CSS & Markdown
+
+Data Persistence: CSV-based local storage for triage datasets and user credentials.
+
+📊 How It Works (The Logic)
+Data Processing: The app loads a 150-row clinical dataset (triage_data.csv).
+
+Feature Engineering: It analyzes features like Age, Body Temperature, Heart Rate, and Comorbidities.
+
+Inference: When a nurse clicks "Assess Risk," the inputs are fed into the trained ML model.
+
+Risk Weighting: The logic specifically weights pre-existing conditions (e.g., a patient with Heart Disease and high HR is automatically prioritized).
+
+Output: Generates a clinical insight report with a confidence score and department routing.
+
+This application is a Hackathon Prototype. In a production environment, user passwords should be hashed (e.g., using bcrypt), and the system should be deployed on HIPAA-compliant cloud infrastructure.
